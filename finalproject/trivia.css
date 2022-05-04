@@ -1,0 +1,206 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#question {
+    margin-top: 2.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    border: 5px solid #343a40;
+    border-radius: 2em;
+    background-color: white;
+    padding: 30px;
+}
+
+
+#question-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+    
+
+#question-div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#question-div p {
+    font-size: 1.5em;
+    
+}
+
+#question-div h2 {
+    font-size: 2.2em;
+}
+
+
+#play-again {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3, h4, button {
+    text-align: center;
+}
+
+
+#wrong-answer {
+    color: #e83e8c;
+    border: 2px solid #e83e8c;
+    display: inline;
+    padding: 5px
+}
+
+#correct-answer {
+    color: #78c2ad;
+    border: 2px solid #78c2ad;
+    display: inline;
+    padding: 5px;
+}
+
+
+#wrong {
+    color: #e83e8c;
+}
+
+#right {
+    color: #78c2ad;
+}
+
+li {
+    margin: 10px;
+    font-size: 1.4em;
+
+}
+
+a {
+    color: lightpink;
+}
+
+#answer-list li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-right: 30px;
+    width: 350px;
+    line-height: 60px;
+    border-radius: 1em;
+}
+
+#answer-list li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+  }
+
+#answer-list li a:hover {
+    text-decoration: none;
+    color: #f8f9fa;
+    background-color: #33B5E5;
+  }
+
+
+.hover:hover {
+    color: #6610f2;
+}
+
+h1 {
+    font-size: 3em;
+    color: #343a40;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #343a40;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;  
+    color: #343a40;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#time{
+
+    text-align: center;
+    font-size: 1.5em;
+    color: #343a40; 
+
+}
+
+input[type=text] {
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    font-size: 1.5em;
+}
+
+select {  
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    font-size: 1.2em;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 1%;
+    text-align: center;
+}
+
+
+button, input[type=submit] {
+    background-color: #fa8cc1;
+    color: white;
+    border: none;
+    margin: 1%;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    border-radius: .5em;
+}
+
+figure {
+    margin-right: 1em;
+}
+
+.accordion-button {
+    margin-top: 3em; 
+}
+
+
+
